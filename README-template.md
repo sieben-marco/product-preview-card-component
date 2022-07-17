@@ -91,6 +91,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
+https://medium.com/@dixita0607/css-units-for-font-size-px-em-rem-79f7e592bb97 - Lembrei como configurar o root font-size para usar a unidade rem.
+
+https://www.instagram.com/p/Cf97-jFu24V/?igshid=YmMyMTA2M2Y= (@papodedev - Isadora · Front-end developer) - Resets para algumas tags. E um pequeno insight sobre BEM (Block Element Modifier)
+
+https://wunder.io/wunderpedia/accessibility/accessible-uis/hover-focus-active/#:~:text=Hover%3A%20by%20putting%20your%20cursor,(such%20as%20switch%20devices). - hover, focus and active differentiation
+
+https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/ - more specic hover, focus and active differentiation
+
+
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
