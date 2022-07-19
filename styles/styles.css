@@ -1,5 +1,5 @@
-/* ------- General ------- */
 :root {
+  /* -- to set up font-size -- */
   font-size: 62.5%; /* 1rem = 10px */
   
   /* -- primary colors -- */
@@ -11,120 +11,101 @@
   --dark-grayish-blue: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
   --actived-very-dark-cyan: hsl(158, 36%, 20%);
+  
+  /* -- font weight -- */
+  --fw-medium: 500;
+  --fw-bold: 700;
 }
-
-/* ------- Debugging layout -------
-   * { outline: solid red 1px; }    */
 
 /* ------- Reset ------- */
 html {
   box-sizing: border-box;
 }
 
-body, h1, h2, p, button {
+body {
+  background-color: var(--cream);
+}
+
+body, h1, h2, p {
   margin: 0;
   padding: 0;
-  font-weight: normal;
-  border: none;
+  font-weight: var(--fw-medium);
 }
 
 img {
+  display: block; /* to remove default gap in inline elements */
   width: 100%;
   height: auto;
 }
 
 /* ------- Fonts ------- */
-.card--subtitle,
-.card--description,
-.card--real-price,
-.card--button {
+.card__subtitle,
+.card__description,
+.card__real-price,
+.card__button {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  color: var(--dark-grayish-blue);
 }
 
-.card--title,
-.card--promotional-price {
+.card__title,
+.card__sale-price {
   font-family: 'Fraunces', serif;
+  font-size: 3.4rem;
 }
 
 /* ------- Layout ------- */
 .card {
   width: 37.5rem;
-  margin-inline: auto;
-  margin-block: 3.2rem;
+  margin: 3.2rem auto;
   border-radius: 1rem;
+  background-color: var(--white);
   overflow: hidden;
 }
 
-.card--image {
-  display: block; /* to remove default gap in inline elements */
-}
-
-.card--wrapper {
+.card__wrapper {
   padding: 2.7rem;
 }
 
-/* ------- Custom Colors ------- */
-body {
-  background-color: var(--cream);
-}
-
-.card {
-  background-color: var(--white);
-}
-
-.card--subtitle {
+.card__subtitle {
   margin-bottom: 1.5rem;
-  font-size: 1.4rem;
   letter-spacing: .5rem;
 }
 
-.card--title {
+.card__title {
   color: var(--very-dark-blue);
-  font-size: 3.4rem;
-  line-height: 3.5rem;
   margin-bottom: 1.8rem;
+  line-height: 3.5rem;
 }
 
-.card--description {
+.card__description {
   margin-bottom: 4.8rem;
   line-height: 2.5rem;
 }
 
-.card--subtitle,
-.card--description,
-.card--real-price {
-  color: var(--dark-grayish-blue);
-}
-
-.card--description,
-.card--real-price {
-  font-size: 1.4rem;
-}
-
-.card--promotional-price {
-  color: var(--dark-cyan);
-  font-size: 3.5rem;
-  margin-right: 2.1rem;
-}
-
-.card--real-price {
-  text-decoration-line: line-through;
-}
-
-.card--promotional-price,
-.card--real-price {
+.card__sale-price,
+.card__real-price {
   display: inline-block;
   vertical-align: middle;
 }
 
-.card--button {
+.card__sale-price {
+  color: var(--dark-cyan);
+  margin-right: 2.1rem;
+}
+
+.card__real-price {
+  text-decoration-line: line-through;
+}
+
+.card__button {
   color: var(--white);
+  font-weight: var(--fw-bold);
   background-color: var(--dark-cyan);
+  border: none;
   border-radius: .9rem;
   width: 100%;
   padding-block: 1.8rem;
-  font-weight: 700;
-  font-size: 1.4rem;
   margin-top: 1.8rem;
   
   display: flex;
@@ -133,6 +114,6 @@ body {
   column-gap: 1rem;
 }
 
-.card--button:active {
+.card__button:active {
   background-color: var(--actived-very-dark-cyan);
 }
