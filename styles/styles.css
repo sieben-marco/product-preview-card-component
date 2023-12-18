@@ -152,7 +152,7 @@ img {
 }
 
 /* desktop devices */
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 780px) {
   .card {
     display: flex;
     width: 60rem;
@@ -189,15 +189,17 @@ img {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .card {
-    width: 900px;
-
-    background-color: tomato;
+    width: 80rem;
   }
 
   .card--image,
   .card--wrapper {
-    width: 45rem;
+    width: 40rem;
+  }
+
+  .card--wrapper {
+    padding: 4.6rem;
   }
 }
