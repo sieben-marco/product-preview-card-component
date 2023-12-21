@@ -76,7 +76,7 @@ img {
 }
 
 .card__wrapper {
-  padding: 3.2rem;
+  padding: 3.5rem;
 }
 
 .card__subtitle {
@@ -87,7 +87,7 @@ img {
 
 .card__title {
   color: var(--very-dark-blue);
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
   line-height: 3.5rem;
 }
 
