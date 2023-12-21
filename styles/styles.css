@@ -44,7 +44,7 @@ img {
 /* ------- Fonts ------- */
 .card__subtitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -76,7 +76,7 @@ img {
 }
 
 .card__wrapper {
-  padding: 3.7rem;
+  padding: 3.2rem;
 }
 
 .card__subtitle {
