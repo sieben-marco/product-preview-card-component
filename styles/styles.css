@@ -44,7 +44,7 @@ img {
 /* ------- Fonts ------- */
 .card__subtitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -76,23 +76,23 @@ img {
 }
 
 .card__wrapper {
-  padding: 3.7rem;
+  padding: 3.4rem;
 }
 
 .card__subtitle {
-  margin-bottom: 1.4rem;
+  margin-bottom: 2rem;
   letter-spacing: .4rem;
   text-transform: uppercase;
 }
 
 .card__title {
   color: var(--very-dark-blue);
-  margin-bottom: 2rem;
-  line-height: 3.5rem;
+  margin-bottom: 2.5rem;
+  line-height: 2.9rem;
 }
 
 .card__description {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.4rem;
   line-height: 2.5rem;
 }
 
@@ -118,8 +118,8 @@ img {
   border: none;
   border-radius: .7rem;
   width: 100%;
-  padding-block: 1.2rem;
-  margin-top: 1.8rem;
+  padding-block: 1.3rem;
+  margin-top: 2.2rem;
   cursor: pointer;
   
   display: flex;
@@ -160,7 +160,7 @@ img {
 @media screen and (min-width: 780px) {
   .card {
     display: flex;
-    width: 60rem;
+    width: 59rem;
 
     position: absolute;
     top: 0;
@@ -168,13 +168,13 @@ img {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 45rem;
+    height: 44.25rem;
     z-index: 1;
   }
 
   .card__image,
   .card__wrapper {
-    width: 30rem;
+    width: 29.5rem;
   }
 
   .card__image--mobile {
