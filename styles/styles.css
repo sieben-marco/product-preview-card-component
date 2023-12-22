@@ -56,6 +56,10 @@ img {
   color: var(--dark-grayish-blue);
 }
 
+.card__button {
+  font-size: 1.4rem;
+}
+
 .card__title,
 .card__price--sale {
   font-family: 'Fraunces', serif;
@@ -87,13 +91,13 @@ img {
 
 .card__title {
   color: var(--very-dark-blue);
-  margin-bottom: 2.5rem;
-  line-height: 3.3rem;
+  margin-bottom: 2.6rem;
+  line-height: 3.2rem;
 }
 
 .card__description {
-  margin-bottom: 2.2rem;
-  line-height: 2.3rem;
+  margin-bottom: 2.3rem;
+  line-height: 2.2rem;
 }
 
 .card__price--sale,
@@ -104,7 +108,7 @@ img {
 
 .card__price--sale {
   color: var(--dark-cyan);
-  margin-right: 1.8rem;
+  margin-right: 1.5rem;
 }
 
 .card__price--real {
@@ -118,8 +122,8 @@ img {
   border: none;
   border-radius: .8rem;
   width: 100%;
-  padding-block: 1.8rem;
-  margin-top: 2.2rem;
+  padding-block: 1.6rem;
+  margin-top: 2.4rem;
   cursor: pointer;
   
   display: flex;
