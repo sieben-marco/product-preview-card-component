@@ -44,7 +44,7 @@ img {
 /* ------- Fonts ------- */
 .card__subtitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -52,7 +52,7 @@ img {
 .card__price--real,
 .card__button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.37rem;
+  font-size: 1.4rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -96,7 +96,7 @@ img {
 }
 
 .card__description {
-  margin-bottom: 2.3rem;
+  margin-bottom: 2.6rem;
   line-height: 2.2rem;
 }
 
