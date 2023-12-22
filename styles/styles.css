@@ -52,14 +52,14 @@ img {
 .card__price--real,
 .card__button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.37rem;
   color: var(--dark-grayish-blue);
 }
 
 .card__title,
 .card__price--sale {
   font-family: 'Fraunces', serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 
 /* ------- Layout ------- */
@@ -76,24 +76,24 @@ img {
 }
 
 .card__wrapper {
-  padding: 3.4rem;
+  padding: 3rem;
 }
 
 .card__subtitle {
   margin-bottom: 2rem;
-  letter-spacing: .4rem;
+  letter-spacing: .5rem;
   text-transform: uppercase;
 }
 
 .card__title {
   color: var(--very-dark-blue);
   margin-bottom: 2.5rem;
-  line-height: 2.9rem;
+  line-height: 3.3rem;
 }
 
 .card__description {
-  margin-bottom: 2.4rem;
-  line-height: 2.5rem;
+  margin-bottom: 3rem;
+  line-height: 2.3rem;
 }
 
 .card__price--sale,
@@ -118,8 +118,8 @@ img {
   border: none;
   border-radius: .7rem;
   width: 100%;
-  padding-block: 1.3rem;
-  margin-top: 2.2rem;
+  padding-block: 1.4rem;
+  margin-top: 2.5rem;
   cursor: pointer;
   
   display: flex;
@@ -160,7 +160,7 @@ img {
 @media screen and (min-width: 780px) {
   .card {
     display: flex;
-    width: 59rem;
+    width: 60rem;
 
     position: absolute;
     top: 0;
@@ -168,13 +168,13 @@ img {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 44.25rem;
+    height: 45rem;
     z-index: 1;
   }
 
   .card__image,
   .card__wrapper {
-    width: 29.5rem;
+    width: 30rem;
   }
 
   .card__image--mobile {
